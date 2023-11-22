@@ -9,5 +9,5 @@ npm install node.js
 npm install -g nodemon
 
 To play, simply add the bot to a desired server by going to "https://discord.com/developers/applications" and creating a invite link.
-Then you can type in the command "nodemon" on your terminal to start up the bot
+Then you can type in the command "node src/register-commands.js" to register the / commands and "nodemon" on your terminal to start up the bot
 You can then use all the / commands in the discord to play
