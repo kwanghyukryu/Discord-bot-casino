@@ -198,5 +198,18 @@ Result: ${botcf}`,
                 )
         interaction.reply({ embeds: [embed]});
     };
+    const randommoney = Math.floor(Math.random()*1000);
+    if(interaction.commandName === 'money'){
+        const embed = new EmbedBuilder()
+            .setTitle('Random Money Generator')
+            .setDescription('Randomly gives you money between $1 and $1000')
+            .setColor('Random')
+            .addFields(
+                {name: 'You got: ',
+                 value: `$${randommoney}`
+            }
+            );
+        interaction.reply({ embeds: [embed]});
+    };
     
 })
