@@ -5,6 +5,10 @@ const { REST, Routes, ApplicationCommandOptionType } =require('discord.js');
 //type node src/register-commands.js to register the commands
 const commands = [
     {
+        name: 'money',
+        description: 'Randomly gives you money between $1 and $1000'
+    },
+    {
         name: 'help',
         description: 'Everything you need to know about casino bot'
     },
